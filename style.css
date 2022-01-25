@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.main-wrapper {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.vector-wrapper {
+    height: 50%;
+}
+
+svg {
+    display: inline-block;
+    height: 100%;
+}
+
+path {
+    transform: scale(.7) translate(22%, 20%);
+    stroke-dasharray: 1000;
+}
